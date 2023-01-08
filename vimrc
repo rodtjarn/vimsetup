@@ -18,6 +18,7 @@ set history=10000
 set tags=./tags,tags;$HOME
 set isfname+={,}
 let mapleader=" "
+"let PYTHONPATH="/opt/homebrew/lib/python3.10/site-packages"
 inoremap jk <Esc>
 tnoremap jk <c-W>N
 colorscheme gruvbox
